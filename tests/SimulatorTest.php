@@ -16,7 +16,7 @@ COMMAND;
 
         $output = Simulator::run($command);
 
-        $this->assertEquals("Output: 0,1,NORTH", $output);
+        $this->assertEquals("Output: 0,1,NORTH\n", $output);
     }
 }
 
